@@ -1,0 +1,45 @@
+server {
+  listen 8080;
+  listen [::]:8080;
+
+  server_name ${APP_DOMAIN} localhost;
+  access_log /dev/stdout;
+
+  client_max_body_size 100m;
+
+  error_page 404 /error/index.php;
+  error_page 403 =404 /error/index.php;
+
+  root   /srv/wordpress/web;
+  index index.php index.html index.htm;
+
+  location ~ /\.(?!well-known).* {
+    deny all;
+  }
+
+  location / {
+    try_files $uri $uri/ /index.php?$query_string;
+  }
+
+  location ~* /(?:uploads|files)/.*\.php(/|$) {
+    deny all;
+  }
+
+  location ~ \.php(/|$) {
+
+    fastcgi_split_path_info ^(.+\.php)(.*)$;
+
+    fastcgi_intercept_errors on;
+    fastcgi_pass ${NOMAD_ADDR_fastcgi};
+    fastcgi_index index.php;
+
+    include fastcgi.conf;
+  }
+
+  location ~* \.(js|css|png|jpg|jpeg|gif|ico)$ {
+    expires max;
+  }
+  location ~* \.(blade\.php)$ {
+    deny all;
+  }
+}

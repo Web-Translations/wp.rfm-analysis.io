@@ -1,0 +1,8 @@
+.git*
+.env*
+.dockerignore
+README.md
+LICENSE.md
+AGENTS.md
+Dockerfile
+compose.yaml*
