@@ -84,8 +84,10 @@ jobs:
           JENKINS_URL: ${{ vars.JENKINS_URL }}
           JENKINS_JOB: ${{ vars.JENKINS_JOB }}
           JENKINS_TOKEN: ${{ secrets.JENKINS_JOB_TOKEN }}
+          JENKINS_PASSWORD: ${{ secrets.JENKINS_PASSWORD }}
           COMMIT_SHA: ${{ github.sha }}
         run: |
           curl --fail --silent --show-error --request POST --header "Content-Type: application/x-www-form-urlencoded" \
+            --user "github:${JENKINS_PASSWORD}" \
             --data-urlencode "token=${JENKINS_TOKEN}" \
             --data-urlencode "COMMIT_SHA=${COMMIT_SHA}" "${JENKINS_URL}/job/${JENKINS_JOB}/build"
