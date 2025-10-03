@@ -54,7 +54,7 @@ RUN apk --update --no-cache add nginx=~1.28 curl=~8.14 libintl=~0.24 && \
     apk del build_deps
 
 WORKDIR /srv/wordpress/web
-COPY web .
+COPY --from=fpm  /srv/wordpress/web .
 
 COPY docker/nginx/app.conf.template /etc/nginx/http.d/
 COPY docker/nginx/nginx.conf /etc/nginx/
