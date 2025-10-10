@@ -88,5 +88,5 @@ jobs:
           COMMIT_SHA: ${{ github.sha }}
         run: |
           curl --fail --silent --show-error --header "Content-Type: application/x-www-form-urlencoded" \
-            --user "github:${JENKINS_API_TOKEN}" \
-            "${JENKINS_URL}/job/${JENKINS_JOB}/buildWithParameters?token=${JENKINS_TOKEN}&COMMIT_SHA=${COMMIT_SHA}"
+            --user "github:${JENKINS_API_TOKEN}" -L -X POST \
+            "${JENKINS_URL}/job/${JENKINS_JOB}/buildWithParameters?COMMIT_SHA=${COMMIT_SHA}"
