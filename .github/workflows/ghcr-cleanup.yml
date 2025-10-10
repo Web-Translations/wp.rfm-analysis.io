@@ -14,7 +14,19 @@ jobs:
           min-versions-to-keep: 5
       - uses: actions/delete-package-versions@v5
         with:
+          package-name: wp.rfm-analysis.io-nginx
+          package-type: container
+          ignore-versions: '^(?!sha-).*'
+          min-versions-to-keep: 5
+      - uses: actions/delete-package-versions@v5
+        with:
           package-name: wp.rfm-analysis.io-fpm
           package-type: container
           delete-only-untagged-versions: true
+          min-versions-to-keep: 5
+      - uses: actions/delete-package-versions@v5
+        with:
+          package-name: wp.rfm-analysis.io-fpm
+          package-type: container
+          ignore-versions: '^(?!sha-).*'
           min-versions-to-keep: 5
