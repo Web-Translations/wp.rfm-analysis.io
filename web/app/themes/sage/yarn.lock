@@ -434,9 +434,9 @@
   integrity sha512-dWHzHa2WqEXI/O1E9OjrocMTKJl2mSrEolh1Iomrv6U+JuNwaHXsXx9bLu5gG7BUWFIN0skIQJQ/L1rIex4X6w==
 
 "@wordpress/dependency-extraction-webpack-plugin@^6.27.0":
-  version "6.35.0"
-  resolved "https://registry.yarnpkg.com/@wordpress/dependency-extraction-webpack-plugin/-/dependency-extraction-webpack-plugin-6.35.0.tgz#21e1500d1c7e499cb701821fc2747fe3b862fbfa"
-  integrity sha512-HytyG+9vh2u+EM9YRM5xEtP1YDjU73Q+GdQ1j2k/OUd/A6NNmln5dk+1rzvXHYUrn5wogomcJTHDD6vBFSX3aw==
+  version "6.36.0"
+  resolved "https://registry.yarnpkg.com/@wordpress/dependency-extraction-webpack-plugin/-/dependency-extraction-webpack-plugin-6.36.0.tgz#6627a96f83e9037cdc66b81572fd04308959f81c"
+  integrity sha512-x59HhuZflt6gjm74m5ymuJgLsfvY0pwYhfy42SfrYN/V59vXkl5S6jEmzhlUsdDGVrQG6lSVDJm7n5btohPXvg==
   dependencies:
     json2php "^0.0.7"
 
