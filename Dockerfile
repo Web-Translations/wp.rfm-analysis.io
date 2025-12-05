@@ -44,11 +44,11 @@ CMD ["php-fpm"]
 
 HEALTHCHECK --interval=30s --timeout=10s CMD /healthcheck.sh || exit 1
 
-FROM alpine:3.22 AS nginx
+FROM alpine:3.23 AS nginx
 
 LABEL maintainer="alexeydemidov@gmail.com"
 
-RUN apk --update --no-cache add nginx=~1.28 curl=~8.14 libintl=~0.24 && \
+RUN apk --update --no-cache add nginx=~1.28 curl=~8.17 libintl=~0.24 && \
     apk add --no-cache --virtual build_deps gettext &&  \
     cp /usr/bin/envsubst /usr/local/bin/envsubst && \
     apk del build_deps
