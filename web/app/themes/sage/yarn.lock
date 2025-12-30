@@ -189,9 +189,9 @@
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
 "@napi-rs/wasm-runtime@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@napi-rs/wasm-runtime/-/wasm-runtime-1.1.0.tgz#c0180393d7862cff0d412e3e1a7c3bd5ea6d9b2f"
-  integrity sha512-Fq6DJW+Bb5jaWE69/qOE0D1TUN9+6uWhCeZpdnSBk14pjLcCWR7Q8n49PTSPHazM37JqrsdpEthXy2xn6jWWiA==
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@napi-rs/wasm-runtime/-/wasm-runtime-1.1.1.tgz#c3705ab549d176b8dc5172723d6156c3dc426af2"
+  integrity sha512-p64ah1M1ld8xjWv3qbvFwHiFVWrq1yFvV4f7w+mzaqiR4IlSgkqhcRdHwsGgomwzBH51sRY4NEowLxnaBjcW/A==
   dependencies:
     "@emnapi/core" "^1.7.1"
     "@emnapi/runtime" "^1.7.1"
@@ -434,9 +434,9 @@
   integrity sha512-dWHzHa2WqEXI/O1E9OjrocMTKJl2mSrEolh1Iomrv6U+JuNwaHXsXx9bLu5gG7BUWFIN0skIQJQ/L1rIex4X6w==
 
 "@wordpress/dependency-extraction-webpack-plugin@^6.27.0":
-  version "6.36.0"
-  resolved "https://registry.yarnpkg.com/@wordpress/dependency-extraction-webpack-plugin/-/dependency-extraction-webpack-plugin-6.36.0.tgz#6627a96f83e9037cdc66b81572fd04308959f81c"
-  integrity sha512-x59HhuZflt6gjm74m5ymuJgLsfvY0pwYhfy42SfrYN/V59vXkl5S6jEmzhlUsdDGVrQG6lSVDJm7n5btohPXvg==
+  version "6.37.0"
+  resolved "https://registry.yarnpkg.com/@wordpress/dependency-extraction-webpack-plugin/-/dependency-extraction-webpack-plugin-6.37.0.tgz#aecf6ebeb018c765a45ee3d5a89756fff03745ec"
+  integrity sha512-N9DTLr07AYV9vo/kFVSKYp/+wg2wBHL4ekDldwx2rGNtOHjoSi1oo+iBmStSaKMRtCQX2Xq8xVFH04+53T0yXA==
   dependencies:
     json2php "^0.0.7"
 
