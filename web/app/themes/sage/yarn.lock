@@ -323,11 +323,11 @@
   integrity sha512-2HRCml6OztYXyJXAvdDXPKcawukWY2GpR5/nxKp4iBgiO3wcoEGkAaqctIbZcNB6KlUQBIqt8VYkNSj2397EfA==
 
 "@roots/vite-plugin@^1.0.2":
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/@roots/vite-plugin/-/vite-plugin-1.2.3.tgz#9edcdc294db673505ac18ad28b8f4f6cda7a9604"
-  integrity sha512-rcEniQ/bdn/mRlhHs9+kMCRvvklHu1cKiONx/1Bp79O9v308pxWO86WcoYuXoAgCjf1zs+QL42gi2xJ+N6CqEA==
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/@roots/vite-plugin/-/vite-plugin-1.2.4.tgz#a3be16fcabf6d425fef063fe9edc88e5f30814c2"
+  integrity sha512-jqqgD2xI4ZzhjF+GQPQ4it5nk6/MoLzujgX4Wi5eskJTeHUxtW7zEtjitzTl9zgpogSJWkPVpl9EAler55fCzQ==
   dependencies:
-    "@wordpress/dependency-extraction-webpack-plugin" "^6.27.0"
+    "@wordpress/dependency-extraction-webpack-plugin" "^6.40.0"
 
 "@tailwindcss/node@4.2.1":
   version "4.2.1"
@@ -448,7 +448,7 @@
   resolved "https://registry.yarnpkg.com/@types/estree/-/estree-1.0.8.tgz#958b91c991b1867ced318bedea0e215ee050726e"
   integrity sha512-dWHzHa2WqEXI/O1E9OjrocMTKJl2mSrEolh1Iomrv6U+JuNwaHXsXx9bLu5gG7BUWFIN0skIQJQ/L1rIex4X6w==
 
-"@wordpress/dependency-extraction-webpack-plugin@^6.27.0":
+"@wordpress/dependency-extraction-webpack-plugin@^6.40.0":
   version "6.40.0"
   resolved "https://registry.yarnpkg.com/@wordpress/dependency-extraction-webpack-plugin/-/dependency-extraction-webpack-plugin-6.40.0.tgz#355132e95e4e3a0c8a55ab1c417c585f2f0d0d28"
   integrity sha512-C6QZUieZoOEeZqT265EGIn95vIA1Nt6BPCOi1JyuJQ2hxOgk/cz4Vj7a31zJzCu/c1BKN3R6n78lB6nAuyZrVQ==
@@ -461,9 +461,9 @@ detect-libc@^2.0.3:
   integrity sha512-Btj2BOOO83o3WyH59e8MgXsxEQVcarkUOpEYrubB0urwnN10yQ364rsiByU11nZlqWYZm05i/of7io4mzihBtQ==
 
 enhanced-resolve@^5.19.0:
-  version "5.19.0"
-  resolved "https://registry.yarnpkg.com/enhanced-resolve/-/enhanced-resolve-5.19.0.tgz#6687446a15e969eaa63c2fa2694510e17ae6d97c"
-  integrity sha512-phv3E1Xl4tQOShqSte26C7Fl84EwUdZsyOuSSk9qtAGyyQs2s3jJzComh+Abf4g187lUUAvH+H26omrqia2aGg==
+  version "5.20.0"
+  resolved "https://registry.yarnpkg.com/enhanced-resolve/-/enhanced-resolve-5.20.0.tgz#323c2a70d2aa7fb4bdfd6d3c24dfc705c581295d"
+  integrity sha512-/ce7+jQ1PQ6rVXwe+jKEg5hW5ciicHwIQUagZkp6IufBoY3YDgdTTY1azVs0qoRgVmvsNB+rbjLJxDAeHHtwsQ==
   dependencies:
     graceful-fs "^4.2.4"
     tapable "^2.3.0"
@@ -635,9 +635,9 @@ picomatch@^4.0.2, picomatch@^4.0.3:
   integrity sha512-5gTmgEY/sqK6gFXLIsQNH19lWb4ebPDLA4SdLP7dsWkIXHWlG66oPuVvXSGFPppYZz8ZDZq0dYYrbHfBCVUb1Q==
 
 postcss@^8.5.3:
-  version "8.5.6"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.5.6.tgz#2825006615a619b4f62a9e7426cc120b349a8f3c"
-  integrity sha512-3Ybi1tAuwAP9s0r1UQ2J4n5Y0G05bJkpUIO0/bI9MhwmD70S5aTWbXGBwxHrelT+XM1k6dM0pk+SwNkpTRN7Pg==
+  version "8.5.8"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.5.8.tgz#6230ecc8fb02e7a0f6982e53990937857e13f399"
+  integrity sha512-OW/rX8O/jXnm82Ey1k44pObPtdblfiuWnrd8X7GJ7emImCOstunGbXUpp7HdBrFQX6rJzn3sPT397Wp5aCwCHg==
   dependencies:
     nanoid "^3.3.11"
     picocolors "^1.1.1"
