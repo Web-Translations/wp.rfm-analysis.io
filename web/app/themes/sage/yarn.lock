@@ -323,9 +323,9 @@
   integrity sha512-2HRCml6OztYXyJXAvdDXPKcawukWY2GpR5/nxKp4iBgiO3wcoEGkAaqctIbZcNB6KlUQBIqt8VYkNSj2397EfA==
 
 "@roots/vite-plugin@^1.0.2":
-  version "1.2.4"
-  resolved "https://registry.yarnpkg.com/@roots/vite-plugin/-/vite-plugin-1.2.4.tgz#a3be16fcabf6d425fef063fe9edc88e5f30814c2"
-  integrity sha512-jqqgD2xI4ZzhjF+GQPQ4it5nk6/MoLzujgX4Wi5eskJTeHUxtW7zEtjitzTl9zgpogSJWkPVpl9EAler55fCzQ==
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/@roots/vite-plugin/-/vite-plugin-1.2.5.tgz#ceeb3e967445eb804c011f104ec2645b9305e389"
+  integrity sha512-qzsWP/rfk+X4rK9IJ94i45Yf2xGQBldqu39+UCmi4dB9zcAKG+GWHnHZZwXuBJEHskTfGBOfYI4s0Fs4UhCIAg==
   dependencies:
     "@wordpress/dependency-extraction-webpack-plugin" "^6.40.0"
 
@@ -449,9 +449,9 @@
   integrity sha512-dWHzHa2WqEXI/O1E9OjrocMTKJl2mSrEolh1Iomrv6U+JuNwaHXsXx9bLu5gG7BUWFIN0skIQJQ/L1rIex4X6w==
 
 "@wordpress/dependency-extraction-webpack-plugin@^6.40.0":
-  version "6.40.0"
-  resolved "https://registry.yarnpkg.com/@wordpress/dependency-extraction-webpack-plugin/-/dependency-extraction-webpack-plugin-6.40.0.tgz#355132e95e4e3a0c8a55ab1c417c585f2f0d0d28"
-  integrity sha512-C6QZUieZoOEeZqT265EGIn95vIA1Nt6BPCOi1JyuJQ2hxOgk/cz4Vj7a31zJzCu/c1BKN3R6n78lB6nAuyZrVQ==
+  version "6.41.0"
+  resolved "https://registry.yarnpkg.com/@wordpress/dependency-extraction-webpack-plugin/-/dependency-extraction-webpack-plugin-6.41.0.tgz#db9612b3834ad2014d514ebc8ee4d2e6646c8c9a"
+  integrity sha512-OYg+g+MFmHRRUcjl5hNOrBx56GRkp6MNhHuiAvYP7vFJ8dxwzKmk3AHfqr25QLt3K62ODHK1aaikE1dZt40kNg==
   dependencies:
     json2php "^0.0.7"
 
