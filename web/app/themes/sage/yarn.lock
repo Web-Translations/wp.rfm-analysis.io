@@ -447,9 +447,9 @@
   integrity sha512-dWHzHa2WqEXI/O1E9OjrocMTKJl2mSrEolh1Iomrv6U+JuNwaHXsXx9bLu5gG7BUWFIN0skIQJQ/L1rIex4X6w==
 
 "@wordpress/dependency-extraction-webpack-plugin@^6.40.0":
-  version "6.46.0"
-  resolved "https://registry.yarnpkg.com/@wordpress/dependency-extraction-webpack-plugin/-/dependency-extraction-webpack-plugin-6.46.0.tgz#5b0dfc583a8741a6b48c4b1ed52d01722ecae744"
-  integrity sha512-Lm2JFEI4NrcEQFdnIXK+CsUQGK/LTiRxrDY0ocpTLt5hhb3DJm3Ds2HFn8fa//H0U5B3FvO3XyGMHOUf9Q12Pg==
+  version "6.47.0"
+  resolved "https://registry.yarnpkg.com/@wordpress/dependency-extraction-webpack-plugin/-/dependency-extraction-webpack-plugin-6.47.0.tgz#438de858f6a4424f69ca7e39096bc2fc517a78e5"
+  integrity sha512-fY8yFrvrj7c/tVmoaxm0TcHtsMYGh7nNxB1YTl2NOLUUGCVudby+ts1TWKTttN7vXY3TkRKsEuUL+4X3ToV1WQ==
   dependencies:
     json2php "^0.0.7"
 
@@ -459,9 +459,9 @@ detect-libc@^2.0.3:
   integrity sha512-Btj2BOOO83o3WyH59e8MgXsxEQVcarkUOpEYrubB0urwnN10yQ364rsiByU11nZlqWYZm05i/of7io4mzihBtQ==
 
 enhanced-resolve@^5.21.0:
-  version "5.21.6"
-  resolved "https://registry.yarnpkg.com/enhanced-resolve/-/enhanced-resolve-5.21.6.tgz#aa207b43cf658e6ab3ba06896edc00c13c3127c6"
-  integrity sha512-aNnGCvbJ/RIyWo1IuhNdVjnNF+EjH9wpzpNHt+ci/m9He9LJvUN8wrCcXjp9cWsGNAuvSpVFTx/vraAFQ8qGjQ==
+  version "5.22.0"
+  resolved "https://registry.yarnpkg.com/enhanced-resolve/-/enhanced-resolve-5.22.0.tgz#43c5caad657c6fce58fc6142e5ca6fa8528ed460"
+  integrity sha512-xYcDWrpELkFzz9SpZ3PlI6Eu6eD93Yf0WLDRxikGhWJ3MAir2SNZTIVCVZqZ/NUyx8AdMc2gT9C0gPiw18kG+A==
   dependencies:
     graceful-fs "^4.2.4"
     tapable "^2.3.3"
