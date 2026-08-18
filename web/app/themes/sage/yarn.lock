@@ -194,9 +194,9 @@
   integrity sha512-oTXEIha4SsuXdTA4Iyskj0kpdx2yVXdhd75c2v3xGrHFfVMsbhTPZU/nMPL4sWKo4pBHm3aucLaqGlF696dTyQ==
 
 "@napi-rs/wasm-runtime@^1.1.4":
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/@napi-rs/wasm-runtime/-/wasm-runtime-1.2.2.tgz#c70706532e5827c0932ca6bf43ee2c512f29c639"
-  integrity sha512-JfB4kuJQjaoHuCTseIINHtHWeJnvgEcxjwA5t/Y00ZgaOO1Crz3fjT/p8kT28zA/Caz7oiUMn3d6H2yOVCVwuw==
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/@napi-rs/wasm-runtime/-/wasm-runtime-1.2.3.tgz#97e3d45d7424dc5da1d4e32f3bf3b292f6c1b44c"
+  integrity sha512-UMduMbqO5s5zF2NkNacMT/yK5Y5QiKvWr2+50bzIIxFDwVJ2h49b+oyjaCGPhJxd2/gC2x39EHv/gHVuu36x2Q==
   dependencies:
     "@tybys/wasm-util" "^0.10.3"
 
@@ -452,9 +452,9 @@
   integrity sha512-GhdPgy1el4/ImP05X05Uw4cw2/M93BCUmnEvWZNStlCzEKME4Fkk+YpoA5OiHNQmoS7Cafb8Xa3Pya8m1Qrzeg==
 
 "@wordpress/dependency-extraction-webpack-plugin@^6.40.0":
-  version "6.52.0"
-  resolved "https://registry.yarnpkg.com/@wordpress/dependency-extraction-webpack-plugin/-/dependency-extraction-webpack-plugin-6.52.0.tgz#a5dc5b4ef2502e40aa872b723bf394ac8e753f79"
-  integrity sha512-3cl4vODbsN2D+7E/y7QiOlm11lgWSsUBH8lnznFNuTPQc7LlqumyaY8Bxuek1BIBerbmam0R/Ww8krl1zSpvPQ==
+  version "6.53.0"
+  resolved "https://registry.yarnpkg.com/@wordpress/dependency-extraction-webpack-plugin/-/dependency-extraction-webpack-plugin-6.53.0.tgz#267235af99ae27423f75c65143d2775ede559017"
+  integrity sha512-u3ShLXmSTDmbTTe/2qEC2W4Gq5ygz5M7ahT4yOK8mkaefRE8/faX0RMHDCboaE5rApJM/sgvtufvEaLOsO4Q0g==
   dependencies:
     json2php "^0.0.9"
 
