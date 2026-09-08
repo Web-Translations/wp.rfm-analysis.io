@@ -48,7 +48,7 @@ FROM alpine:3.24 AS nginx
 
 LABEL maintainer="alexeydemidov@gmail.com"
 
-RUN apk --update --no-cache add nginx=~1.30 curl=~8.21 libintl=~1.0 && \
+RUN apk --update --no-cache add nginx=~1.30 curl=~8.22 libintl=~1.0 && \
     apk add --no-cache --virtual build_deps gettext &&  \
     cp /usr/bin/envsubst /usr/local/bin/envsubst && \
     apk del build_deps
